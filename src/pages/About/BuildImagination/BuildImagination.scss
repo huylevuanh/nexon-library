@@ -1,0 +1,26 @@
+.imagination-container {
+    .mantine-Carousel-indicators{
+        margin-bottom: 165px;
+      }
+  .carousel-card {
+    padding: 0;
+    justify-content: flex-end;
+    height:75%;
+    .text-container {
+      width: 100%;
+      height: 35%;
+      background-color: #fff;
+      margin-bottom: -180px;
+      padding: 0 30px;
+      .carousel-title {
+        font-size: 24px;
+        color: #2e2e2e;
+        font-weight: bold;
+        padding-top: 20px;
+      }
+      .carousel-subtitle {
+        color: #333333;
+      }
+    }
+  }
+}

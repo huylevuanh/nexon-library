@@ -1,0 +1,24 @@
+.stories-page-container{
+    padding-top: 100px;
+    .stories-list-tabs-container{
+        .mantine-Tabs-tab{
+            height: 80px;
+            text-align: center;
+            font-size: 18px;
+            font-weight: bold;
+            &[data-active]{
+                background-color: #4b89dc;
+                border: 1px solid #4b89dc;
+                color: #fff
+            }
+        }
+        .stories-list{
+            padding-top: 50px;
+            img{
+                height: 370px;
+                width: 370px;
+                object-fit: contain;
+            }
+        }
+    }
+}

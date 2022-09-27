@@ -1,0 +1,20 @@
+.statistic-block-container {
+    flex-direction: column;
+    padding: 50px 0;
+    .images-container {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      .image-wrapper {
+        position: relative;
+        text-align: center;
+        div {
+          margin-top: -100px;
+          p {
+            margin: 0;
+          }
+        }
+      }
+    }
+  }
+  

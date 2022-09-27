@@ -1,0 +1,33 @@
+.header-container {
+  display: flex;
+  background-color: #fff;
+  justify-content: space-between;
+  padding: 0 230px 0 70px;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  z-index: 999;
+  position: fixed;
+  p,a,img:hover {
+    cursor: pointer;
+  }
+
+  p {
+    font-size: 18px;
+    color: #2e2e2e;
+    margin-right: 200px;
+  }
+
+  a {
+    padding: 0 10px;
+    color: #969696;
+    line-height: 30px;
+    font-size: 14px;
+
+    &:first-child {
+      padding-right: 10px;
+      background: url("https://nexonlibrary.com/assets/front/images/bar1.gif")
+        right center no-repeat;
+    }
+  }
+}

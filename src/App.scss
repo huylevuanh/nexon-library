@@ -1,0 +1,105 @@
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400&display=swap");
+@import './styles/variables.scss';
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+
+  min-width: 1250px;
+  max-width: 2620px;
+}
+
+* {
+  font-family: "Montserrat", sans-serif;
+  .common-text {
+    font-size: 24px;
+    color: #2e2e2e;
+    font-weight: 200;
+  }
+
+  .common-text-bold {
+    font-size: 24px;
+    color: #333333;
+    font-weight: bold;
+  }
+
+  .common-primary-text {
+    font-size: 24px;
+    color: #4b89dc;
+  }
+
+  .subtitle-bold {
+    font-size: 40px;
+    font-weight: bold;
+    color: #333333;
+  }
+
+  .second-common-text {
+    font-size: 20px;
+    line-height: 30px;
+    color: #333;
+  }
+  .third-common-text {
+    font-size: 42px;
+    font-weight: 200;
+    color: #333333;
+  }
+
+  .common-text-4 {
+    font-size: 18px;
+    color: #999999;
+  }
+
+  .common-text-5 {
+    font-size: 18px;
+    color: #333333;
+    line-height: 35px;
+  }
+
+  .common-text-5-bold {
+    font-size: 18px;
+    color: #4b89dc;
+    font-weight: bold;
+  }
+
+  .common-text-6 {
+    font-size: 16px;
+    color: #333333;
+  }
+
+  .button-see-more {
+    font-size: 16px;
+    height: 45px;
+    width: 170px;
+    &:hover {
+      background: none;
+    }
+  }
+
+  .button-tabs {
+    border-radius: none;
+  }
+
+  .title-h4 {
+    font-size: 28px;
+    color: #2e2e2e;
+    font-weight: bold;
+  }
+
+  .title-h3 {
+    font-size: 34px;
+    color: #2e2e2e;
+    font-weight: bold;
+  }
+
+  .title-h3-primary {
+    @extend .title-h3;
+    color: $primary-color;
+  }
+
+  .main-layout {
+    // display: flex;
+    max-width: 1172px;
+    margin: 0px auto;
+    padding: 100px 0;
+  }
+}

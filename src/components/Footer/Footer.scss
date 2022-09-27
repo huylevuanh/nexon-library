@@ -1,0 +1,38 @@
+.footer-container {
+  background-color: #333333;
+  color: white;
+  height: 134px;
+  .footer-content {
+    display: flex;
+    justify-content: space-between;
+    height: 100%;
+    max-width: 1172px;
+    margin: 0 auto;
+    align-items: center;
+    .button-container {
+      display: flex;
+      input,
+      .mantine-Select-dropdown {
+        border: 3px solid white;
+        background-color: #333333;
+        margin-left: 5px;
+        color: white;
+        text-align: center;
+      }
+      input,
+      svg {
+        color: white;
+      }
+    }
+
+    .text-content {
+      font-size: 16px;
+
+      p {
+        &:last-child {
+          color: #9a9a9a;
+        }
+      }
+    }
+  }
+}

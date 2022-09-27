@@ -1,0 +1,31 @@
+@import  '../../styles/variables.scss';
+
+.timeline-wrapper {
+    position: absolute;
+    margin-left: -100px;
+  }
+  .node {
+    padding-left: 8px;
+    padding-bottom: 50px;
+    position: relative;
+    border-left: 3px solid #ddd;
+    &.active{
+        color: $primary-color;
+        border-left: 3px solid $primary-color;
+    }
+  }
+  .node h3, .node p {
+    margin: 0;
+    padding-top: 30px;
+    font-weight: bold;
+    
+  }
+  .node::before {
+    content: "";
+    width: 8px;
+    height: 8px;
+    background: #fff;
+    position: absolute;
+    left: -5px;
+    border-radius: 100%;
+  }

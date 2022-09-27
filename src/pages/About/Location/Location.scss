@@ -1,0 +1,116 @@
+@import "../../../styles/variables.scss";
+
+.location-container {
+  flex-direction: column;
+  .mantine-Carousel-indicators{
+    button{
+        pointer-events: none;
+    }
+  }
+  .map-box {
+    position: relative;
+    width: 50%;
+    .mantine-8od8ev {
+      height: 82px;
+      width: 82px;
+      border-radius: 100%;
+      border: 4px solid $primary-color;
+      flex-direction: column;
+      position: absolute;
+      background-color: #fff;
+      p {
+        margin: 0;
+        text-align: center;
+        &:last-child {
+          margin-top: -12px;
+        }
+      }
+      &.Seoul {
+        top: 8%;
+        left: 32%;
+        &.active {
+          background-color: $primary-color;
+          p {
+            color: #fff;
+          }
+        }
+      }
+
+      &.Gangwon {
+        top: 13%;
+        left: 58%;
+        &.active {
+          background-color: $primary-color;
+          p {
+            color: #fff;
+          }
+        }
+      }
+
+      &.Chung-Cheong {
+        top: 25%;
+        left: 42%;
+        &.active {
+          background-color: $primary-color;
+          p {
+            color: #fff;
+          }
+        }
+      }
+
+      &.Gyeong-Sang {
+        top: 40%;
+        left: 60%;
+        &.active {
+          background-color: $primary-color;
+          p {
+            color: #fff;
+          }
+        }
+      }
+
+      &.Jeolla {
+        top: 50%;
+        left: 30%;
+        &.active {
+          background-color: $primary-color;
+          p {
+            color: #fff;
+          }
+        }
+      }
+
+      &.Jeju {
+        top: 80%;
+        left: 25%;
+        &.active {
+          background-color: $primary-color;
+          p {
+            color: #fff;
+          }
+        }
+      }
+    }
+  }
+
+  .carousel-card {
+    padding: 0;
+    justify-content: flex-end;
+    height: 75%;
+    .text-container {
+      width: 100%;
+      background-color: #fff;
+      height: 25%;
+      margin-bottom: -105px;
+      .carousel-title {
+        font-size: 20px;
+        color: #2e2e2e;
+        font-weight: bold;
+        padding-top: 20px;
+      }
+      .carousel-subtitle {
+        color: #333333;
+      }
+    }
+  }
+}
